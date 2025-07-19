@@ -83,3 +83,37 @@
     max-width: 505px;
     margin: 16px 0;
 }
+.banner-right img {
+    width: 100%;
+}
+
+
+/* Responsive style  */
+
+/*! mobile responsive style */
+
+@media screen and (max-width:576px) {
+    .header{
+      padding:0 10px;
+      background-image: none;
+    }
+    .nav{
+        padding: 20px 0;
+    }
+    .nav-items li , #icon {
+      display: none;
+    } 
+    .banner{
+        flex-direction: column-reverse;
+        
+    }
+    .banner-left{
+        text-align: center;
+    }
+    .banner-right{
+        background-image: url(../images/Circle\ design.svg);
+        background-size: 100%;
+       padding-bottom: 20px;
+    }
+
+}
