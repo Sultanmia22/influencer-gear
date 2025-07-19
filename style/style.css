@@ -20,7 +20,7 @@
 .btn-primary{
   background-color: var(--primary-background);
   border: none;
-   padding: 10px 24px;
+   padding: 10px 24px; 
    font-weight: bold;
    color: white;
    font-weight: bold;
@@ -87,6 +87,13 @@
     width: 100%;
 }
 
+/*! Company section */
+.company-section{
+    max-width: 1410px;
+    margin: 100px auto;
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+}
 
 /* Responsive style  */
 
