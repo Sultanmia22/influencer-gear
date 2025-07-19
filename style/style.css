@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.poppins-thin{
+  font-family: "Poppins", sans-serif;
+  font-weight:auto;
+  font-style: normal;
+}
+
+/*! common style */
+
+:root{
+    --primary-color:rgba(58, 58, 58, 1);
+    --primary-background:rgba(224, 44, 109, 1);
+}
+.btn-primary{
+  background-color: var(--primary-background);
+  border: none;
+   padding: 10px 24px;
+   font-weight: bold;
+   color: white;
+   font-weight: bold;
+   border-radius: 41px;
+}
+
+/*! nav related style */
+.header{
+    max-width: 1640px;
+    margin: 0 auto;
+    background-image: url(../images/Circle\ design.svg);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+}
+
+.nav-title{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--primary-color);
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:94px 0;
+}
+.nav-items{
+    display: flex;
+    align-items: center;
+    gap: 34px;
+}
+.nav li {
+    list-style: none;
+}
+.nav .nav-links{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    color:var(--primary-color);
+}
+
+/*! banner style  */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.banner-left{
+    max-width: 582px;
+}
+.banner-left-title{
+    font-size: 52px;
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+.banner-left-description{
+    color: var(--primary-color);
+    max-width: 505px;
+    margin: 16px 0;
+}
