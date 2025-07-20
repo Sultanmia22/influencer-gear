@@ -103,7 +103,7 @@ body{
 
 /*! Company section */
 .company-section{
-    max-width: 1410px;
+    max-width: 1210px;
     margin: 100px auto;
     display: flex;
     justify-content: space-between;  
@@ -173,7 +173,7 @@ body{
     color: var(--primary-background);
     font-weight: bold;
     margin-top: 50px;
-    padding-right: 15px;
+    padding-right: 25px;
 }
 
 /* Responsive style  */
@@ -211,4 +211,15 @@ body{
         gap: 20px;
     }
 
+    /*! collection section */
+
+    .card-container{
+        grid-template-columns: 1fr;
+    }
+    .card{
+        width: 100%;
+    }
+    .see-more{
+        padding-right:10px;
+    }
 }
