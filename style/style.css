@@ -216,6 +216,32 @@ body{
    color: white;
    background-color: var(--primary-background);
 }
+/*! footer section  */
+.footer-section{
+    background-color: rgb(10,8,38);
+    text-align: center;
+    padding: 50px 0;
+}
+.footer-title{
+    font-size: 1.8rem;
+    color:white;
+    
+}
+.footer-section p{
+    color: rgba(217, 219, 225, 1);
+    margin: 18px 0;
+}
+.footer-icon i{
+    color: white;
+}
+
+.footer-icon a{
+   width: 32px;
+    height: 32px;
+    background-color: rgba(128, 128, 128, 0.562);
+    padding: 6px;
+    border-radius: 50%;
+}
 
 /* Responsive style  */
 
